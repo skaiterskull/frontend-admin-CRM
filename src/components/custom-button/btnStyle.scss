@@ -1,0 +1,29 @@
+.btn-primary {
+  background: #ff8ecc;
+  border: 1px solid #ff8ecc;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+
+  &:hover {
+    background: #aa2b71;
+    border: 1px solid #aa2b71;
+    cursor: pointer;
+  }
+}
+
+.btn-outline {
+  background: white;
+  border: 1px solid white;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+
+  &:hover {
+    background: #f0ebee;
+    border: 1px solid #cfc2ca;
+    cursor: pointer;
+  }
+}

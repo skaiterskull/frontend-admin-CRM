@@ -1,10 +1,16 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.scss";
+import Login from "../src/pages/login/Login";
+import Register from "./pages/register/Register";
 
 function App() {
   return (
-    <div>
-      hi <i className="fas fa-user"></i>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </Router>
   );
 }
 

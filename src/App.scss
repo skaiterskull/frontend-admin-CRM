@@ -1,0 +1,46 @@
+:root {
+  clr1: #7bd8cc;
+  clr2: #b69b9b;
+}
+
+body {
+  background: #f7d5d5;
+  min-height: 100vh;
+}
+
+//login-page
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  .login-form {
+    border: 1px solid #ccc;
+    margin-top: 10vh;
+    padding: 20px;
+    box-shadow: -5px 5px 10px #ccc;
+  }
+
+  .input-fields {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .form-button {
+    text-align: end;
+  }
+
+  .link {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .link a {
+    color: black;
+
+    &:hover {
+      color: #6d6363;
+    }
+  }
+}
